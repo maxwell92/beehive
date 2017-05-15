@@ -1,4 +1,4 @@
 # beehive
 Bees🐝 busy working on their beehive!
 
-![](http://www.clipartpanda.com/clipart_images/picture-of-bee-hive-clipart-3263617)
+![](http://images.clipartpanda.com/hive-clip-art-pi5Ma6riB.jpeg)
