@@ -13,12 +13,8 @@ func Instance() Server {
 	return is
 }
 
-type IrisServer struct {
-}
+type IrisServer struct{}
 
 func (i IrisServer) Up(host string) {
 	iris.Listen(host)
 }
-
-
-

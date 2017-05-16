@@ -1,13 +1,15 @@
 package main
 
 import (
-	"fmt"
 	"common/router"
 	"common/server"
+	"common/config"
+	"fmt"
 )
 
 func init() {
 	router.Setup()
+	config.Instance().Load()
 }
 
 func main() {

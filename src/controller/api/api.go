@@ -1,11 +1,11 @@
 package api
 
 import (
-	"github.com/kataras/iris"
+	 "controller"
 )
 
 type Api struct {
-	*iris.Context
+	controller.Controller
 }
 
 func (a Api) Get() {
