@@ -5,21 +5,28 @@ import (
 )
 
 
-type Node interface {
-	Insert() error
-	Query() error
-}
-
-type NodeInfo struct {
+type NodeInfo interface {
+	MysqlCore
 
 }
 
-func (ni *NodeInfo)Insert() error {
+type Node struct {
 
 }
 
-func (ni *NodeInfo)Query() error {
+func (n *Node) Insert() error {
 
 }
 
+func (n *Node) Query() error {
+
+}
+
+func (n *Node) Update() error {
+
+}
+
+func (n *Node) Delete() error {
+
+}
 
